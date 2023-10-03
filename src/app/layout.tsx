@@ -22,6 +22,7 @@ export default function RootLayout({
     <html className="light" lang="en">
       <Providers>
         <body
+          suppressHydrationWarning={true}
           className={cn(
             "min-h-screen font-sans antialiased grainy",
             inter.className
